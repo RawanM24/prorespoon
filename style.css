@@ -130,7 +130,6 @@ h1 {
 /* Responsive Styles */
 
 
-/* For Tablet Screens */
 @media (max-width: 768px) {
     h1 {
         font-size: 40px;
@@ -146,7 +145,7 @@ h1 {
     }
 
     .h4 {
-        font-size: 18px;
+        font-size: 20px;
         margin-left: 0; /* Adjusted for better alignment */
         text-align: center; /* Center text */
     }
@@ -154,8 +153,8 @@ h1 {
     .form .button,
     .form .greenbutton {
         width: 100%;
-        max-width: 370px;
-        margin: 0 auto; /* Center buttons */
+        max-width: 360px;
+        margin-right:20 ; /* Center buttons */
     }
 
     .form p {
@@ -165,7 +164,7 @@ h1 {
 
     .form .font1,
     .form .font2 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .form .email_error,
@@ -180,7 +179,7 @@ h1 {
 /* For Mobile Screens (below 480px) */
 @media (max-width: 480px) {
     h1 {
-        font-size: 30px;
+        font-size: 50px;
         margin-left: 0; /* Adjusted for better alignment */
         text-align: center; /* Center heading */
     }
@@ -193,27 +192,29 @@ h1 {
     }
 
     .h4 {
-        font-size: 14px;
-        margin-left: 0; /* Adjusted for better alignment */
-        text-align: center; /* Center text */
+        font-size: 25px;
     }
 
     .form input {
         width: 100%;
-        max-width: 100%;
+        max-width: 330px;
         margin-bottom: 10px; /* Space between inputs */
     }
 
-    .form .button,
-    .form .greenbutton {
+    .form .button{
         width: 100%;
-        max-width: 100%;
-        margin: 10px 0; /* Space between buttons */
+        max-width: 350px;
     }
 
+    .form .greenbutton {
+        width: 100%;
+        max-width: 350px;
+        margin-left: 0;
+
+    }
     .form p {
-        font-size: 14px;
-        text-align: center; /* Center the text */
+        font-size: 18px;
+        margin-right: 97px;
     }
 
     .form .font1,
@@ -223,9 +224,10 @@ h1 {
 
     .form .email_error,
     .form .pass_error {
-        font-size: 14px;
+        font-size: 16px;
         width: 100%;
-        max-width: 90%;
-        margin: 5px auto; /* Center error messages */
+        max-width: 330px;
+        margin-left: 0;
     }
 }
+
