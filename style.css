@@ -31,7 +31,7 @@ h1 {
 }
 
 .h4 {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 30px;
     font-size: 19px;
     color: black;
@@ -198,18 +198,18 @@ h1 {
 
     .form input {
         width: 100%;
-        max-width: 290px;
+        max-width: 280px;
         margin-bottom: 10px; /* Space between inputs */
     }
 
     .form .button{
         width: 100%;
-        max-width: 310px;
+        max-width: 300px;
     }
 
     .form .greenbutton {
         width: 100%;
-        max-width: 310px;
+        max-width: 300px;
         margin-left: 0;
 
     }
@@ -222,9 +222,7 @@ h1 {
     .form .font2 {
         font-size: 14px;
     }
-    .or{
-        width: 20%;
-    }
+    
 
     .form .email_error,
     .form .pass_error {
