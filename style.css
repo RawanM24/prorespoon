@@ -129,36 +129,38 @@ h1 {
 /* Responsive Styles */
 /* Responsive Styles */
 
+
 /* For Tablet Screens */
 @media (max-width: 768px) {
     h1 {
         font-size: 40px;
-        margin-left: 120px;
+        margin-left: 0; /* Adjusted margin to center */
+        text-align: center; /* Center align the heading */
     }
 
     .cont {
         width: 90%;
         height: auto;
         padding: 15px;
+        margin: 0 auto; /* Center the container */
     }
 
     .h4 {
-        font-size: 20px;
+        font-size: 18px;
+        margin-left: 0; /* Adjusted for better alignment */
+        text-align: center; /* Center text */
     }
 
-    
-    .form .button{
-        width: 100%;
-        max-width: 370px;
-    }
+    .form .button,
     .form .greenbutton {
-        max-width: 370px;
         width: 100%;
-        margin-left: 0px;
-
+        max-width: 370px;
+        margin: 0 auto; /* Center buttons */
     }
+
     .form p {
         font-size: 16px;
+        text-align: center; /* Center the text */
     }
 
     .form .font1,
@@ -171,6 +173,7 @@ h1 {
         font-size: 16px;
         width: 100%;
         max-width: 350px;
+        margin: 10px auto; /* Center error messages */
     }
 }
 
@@ -178,35 +181,39 @@ h1 {
 @media (max-width: 480px) {
     h1 {
         font-size: 30px;
-        margin-left: 100px;
+        margin-left: 0; /* Adjusted for better alignment */
+        text-align: center; /* Center heading */
     }
 
     .cont {
-        width: 75%;
+        width: 90%; /* Adjusted width */
         padding: 10px;
         height: auto;
-        margin-left: 10px;
+        margin: 0 auto; /* Center container */
     }
 
     .h4 {
         font-size: 14px;
-        margin-left: 100px;
-
+        margin-left: 0; /* Adjusted for better alignment */
+        text-align: center; /* Center text */
     }
 
-    .form input{
-        width: 90%;
-
+    .form input {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px; /* Space between inputs */
     }
 
     .form .button,
     .form .greenbutton {
-        width: 99%;
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0; /* Space between buttons */
     }
 
     .form p {
         font-size: 14px;
-        margin-left: 90px;
+        text-align: center; /* Center the text */
     }
 
     .form .font1,
@@ -217,7 +224,8 @@ h1 {
     .form .email_error,
     .form .pass_error {
         font-size: 14px;
-        width: 92%;
+        width: 100%;
+        max-width: 90%;
+        margin: 5px auto; /* Center error messages */
     }
-
 }
